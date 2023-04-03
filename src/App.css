@@ -1,0 +1,140 @@
+body{
+    font-weight: 400;
+    text-transform: none;
+    color: #222 !important;
+    display: flex;
+    margin: 0px; 
+    padding: 0px;
+    z-index: 10;
+    background-color: #faf9f8  !important;
+    width: 100%;
+    height: 100%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.container{
+    width: 100px;
+    height: 100%;
+}
+
+.nav-all{
+    position: relative;
+    width: 1519px;
+}
+button{
+    font-size: 12px !important;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.header-left{
+    float: left;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 20px;
+}
+
+.header-right{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    bottom: 20px;
+}
+.header-jump{
+    margin: 10px;
+}
+
+.nav-section{
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+}
+
+ul{
+    list-style: none;
+    padding: 20px;
+}
+li{
+    float: left;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.nav-second{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-list{
+    position: relative;
+    padding: 13px
+}
+
+.search{
+    position: absolute;
+    right: 50px;
+    top: 80px;
+    border-bottom: 1px solid black;
+    padding: 5px; 
+}
+.search input{
+    border: none;
+    background-color: #faf9f8;
+    margin-left: 2px;
+    padding: 4px 5px 4px 10px;
+    color: #222;
+}
+.search input:focus{
+    outline: none;
+}
+
+.item-img{
+    width: 300px;
+    transition: 0.4s;
+}
+.item-img:hover{
+    transform: scale( 1.1, 1.1 );
+}
+
+.item-card{
+    width: 300px;
+    justify-content: center;
+}
+
+.product-all{
+    position: relative;
+}
+
+.product-img{
+    display: flex;
+    justify-content: flex-end;
+}
+.product-content{
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+
+.product-choice{
+    font-size: 2px;
+    padding-bottom: 20px;
+}
+#dropdown-basic{
+    background-color: #faf9f8  !important;
+    color: #222 !important;
+    border-radius: 0%;
+    margin-bottom: 15px;
+}
+#product-btn{
+    width: 450px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
