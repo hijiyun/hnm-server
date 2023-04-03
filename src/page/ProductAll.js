@@ -9,7 +9,7 @@ const ProductAll = () => {
   const getProducts = async()=>{
     let searchQuerry = qurry.get('q') || "";
     console.log("쿼리값은? ", searchQuerry)
-    let url = `https://my-json-server.typicode.com/hijiyun/hnm-json-server/products?q=${searchQuerry}`;
+    let url = `https://my-json-server.typicode.com/hijiyun/hnm-server/products?q=${searchQuerry}`;
     let response = await fetch(url)
     let data = await response.json()
     setProductList(data);
